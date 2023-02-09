@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import './ColorPicker.css';
 
-const colorNames = ['Aquamarine', 'BlueViolet', 'Chartreuse', 'CornflowerBlue', 'Thistle', 'SpringGreen', 'SaddleBrown', 'PapayaWhip', 'MistyRose'];
+const vernsRed = `rgb(250, 85, 83)`;
+const colorNames = ['Aquamarine', 'BlueViolet', 'Chartreuse', 'CornflowerBlue', 'Thistle', 'SpringGreen', 'SaddleBrown', 'PapayaWhip', 'MistyRose', vernsRed];
 
 export default function ColorPicker() {
   const [color, setColor] = useState('CornflowerBlue');

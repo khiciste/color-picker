@@ -26,6 +26,10 @@ div {
   overflow-y: hidden;
 }
 
+/* .verns-red {
+  background-color: rgb(250, 85, 83);
+} */
+
 #color-buttons {
   display: block;
   width: 600px;
