@@ -16,11 +16,14 @@ html, body {
 }
 
 h1 {
-  margin: 40px auto;
+  margin: 0 auto;
+  padding: 40px;
 }
 
 div {
+  padding: 0;
   height: 100%;
+  overflow-y: hidden;
 }
 
 #color-buttons {
